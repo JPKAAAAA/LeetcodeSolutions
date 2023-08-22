@@ -18,5 +18,7 @@ int main()
     Solution s;
     vector<int> nums={1,2,3,4,5,6,7,8,9};
     s.nextPermutation(nums);
+    for(auto i: nums)
+    cout<<i<<" ";
     return 0;
 }
