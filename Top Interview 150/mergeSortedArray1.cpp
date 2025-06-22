@@ -10,10 +10,12 @@ The final sorted array should not be returned by the function, but instead be st
 
 #include<bits/stdc++.h>
 using namespace std;
-class Solution {
+class Solution 
+{
 public:
-    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-        vector<int> num(m+n,10);
+    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) 
+    {
+        vector<int> num(m+n,-1);
         int i=0;
         int j=0;
         int k=0;
